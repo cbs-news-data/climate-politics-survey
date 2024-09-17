@@ -57,11 +57,11 @@ $(document).ready(function(){ // begin document.ready block
 
 	fillq();
 
-	$(".gobutton").click(function(){
-		$(".intro").hide()
-		$(".questions").show()
-		$(".nextbutton").show()
-	});
+	// $(".gobutton").click(function(){
+	// 	$(".intro").hide()
+	// 	$(".questions").show()
+	// 	$(".nextbutton").show()
+	// });
 
 
 
@@ -95,10 +95,10 @@ $(document).ready(function(){ // begin document.ready block
 
 	//storing answer to click on 
 
-	$("#myDropdown a").click(function(){
+	$("#myDropdown a").on("click", function(){
 		county_name = $(this).attr("county_name")
 		// answer1 = $(this).attr("county_name")
-		// console.log(answer1)
+		console.log(county_name)
 		$(".dropbtn").html(county_name)
 		$("#myDropdown").toggleClass("show")
 
@@ -225,14 +225,20 @@ $(document).ready(function(){ // begin document.ready block
 	});
 
 	$(".backbutton").click(function(){
-		$(".answers").empty()
+		// $(".answers").empty()
 		if (currentq == 2) {
-			$(this).hide()
-			typeof answer1 === "undefined"
-			console.log(answer1)
+			// $(this).hide()
+			// answer1 = (function () { return; })();
+			// console.log(answer1)
+			// console.log("Back to question 1!")
+			location.reload()
+			// currentq--;
+			// fillq();
+		} else {
+			currentq--;
+			fillq();
 		}
-		currentq--;
-		fillq();
+		
 
 	}); 
 
@@ -249,6 +255,8 @@ $(document).ready(function(){ // begin document.ready block
 
 		}
 
+		answer1 = (function () { return; })();
+		console.log(answer1)
 		
 
 		// question 1
@@ -342,7 +350,11 @@ $(document).ready(function(){ // begin document.ready block
 		$(".howdidyouanswer").hide()
 		$(".finishbutton").hide()
 		$(".backbutton").hide()
-		$(".intro").show()
+		// $(".intro").show()
+		$(".questions").show()
+		$(".nextbutton").show()
+		location.reload()
+
 		typeof answer1 === "undefined"
 		currentq = 1;
 		fillq();

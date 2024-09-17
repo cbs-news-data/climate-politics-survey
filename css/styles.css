@@ -55,8 +55,11 @@ button:hover {
    transform: scale(1.1);
 }
 
+.bold { font-family: proxima-nova-bold, sans-serif; font-weight: bold; }
+
 .container {
    max-width: 738px;
+   margin: auto;
 }
 
 .description {
@@ -64,9 +67,9 @@ button:hover {
    margin-bottom: 30px;
 }
 
-.questions {
+/*.questions {
    display: none;
-}
+}*/
 
 .backbutton {
    display: none;
@@ -115,7 +118,7 @@ button:hover {
 /* The search field */
 #myInput {
   box-sizing: border-box;
-  background-image: url('searchicon.png');
+/*  background-image: url('searchicon.png');*/
   background-position: 14px 12px;
   background-repeat: no-repeat;
   font-size: 16px;
@@ -177,6 +180,11 @@ button:hover {
    height: 75px;
    display: flex;
    font-family: proxima-nova, sans-serif;
+   color: white;
+}
+
+.howdidyouanswer h4 {
+   font-size: 20px;
 }
 
 .answer2, .answer3, .answer4, .answer5, .answer6 {text-transform: lowercase; font-family: proxima-nova-bold, sans-serif;}
@@ -188,7 +196,7 @@ button:hover {
 }
 
 .chart_1 {
-   background-color: #8faedf;
+   background-color: #5786D0;
    width: 45%;
    text-align: left;
 
@@ -216,11 +224,34 @@ button:hover {
 }
 
 .chart_2 {
-   background-color: #e7a895;
+   background-color: #40B062;
    width: 45%;   
    text-align: right;
 
 }
+
+/*____________US ANSWERS___________*/
+
+.USanswer2chart .chart_0 {width: 0%}
+.USanswer2chart .chart_1 {width: 64%}
+.USanswer2chart .chart_2 {width: 36%}
+
+.USanswer3chart .chart_0 {width: 10%}
+.USanswer3chart .chart_1 {width: 70%}
+.USanswer3chart .chart_2 {width: 20%}
+
+.USanswer4chart .chart_0 {width: 0%}
+.USanswer4chart .chart_1 {width: 79%}
+.USanswer4chart .chart_2 {width: 21%}
+
+.USanswer5chart .chart_0 {width: 0%}
+.USanswer5chart .chart_1 {width: 74%}
+.USanswer5chart .chart_2 {width: 26%}
+
+.USanswer6chart .chart_0 {width: 15%}
+.USanswer6chart .chart_1 {width: 62%}
+.USanswer6chart .chart_2 {width: 23%}
+
 
 /*----------------------end answers styling-----------------------*/
 
