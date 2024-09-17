@@ -60,6 +60,7 @@ button:hover {
 .container {
    max-width: 738px;
    margin: auto;
+   padding: 20px;
 }
 
 .description {
@@ -111,7 +112,7 @@ button:hover {
 
 #myDropdown {
    font-family: proxima-nova, sans-serif;
-   height: 500px;
+   height: 250px;
    overflow: scroll;
 }
 
