@@ -102,7 +102,7 @@ $(document).ready(function(){ // begin document.ready block
 		$(".dropbtn").html(county_name)
 		$("#myDropdown").toggleClass("show")
 
-		$.get('../ycom-counties-for-survey.csv', function(csvString) {
+		$.get('https://cbs-news-data.github.io/climate-politics-survey/ycom-counties-for-survey.csv', function(csvString) {
 
 			// Use PapaParse to convert string to array of objects
 			var ycom = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
@@ -225,7 +225,7 @@ $(document).ready(function(){ // begin document.ready block
 	});
 
 	$(".backbutton").click(function(){
-		// $(".answers").empty()
+		$(".answers").empty()
 		if (currentq == 2) {
 			// $(this).hide()
 			// answer1 = (function () { return; })();
