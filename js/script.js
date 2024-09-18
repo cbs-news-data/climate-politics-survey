@@ -255,7 +255,6 @@ $(document).ready(function(){ // begin document.ready block
 
 		}
 
-		answer1 = (function () { return; })();
 		console.log(answer1)
 		
 

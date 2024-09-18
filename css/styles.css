@@ -55,6 +55,17 @@ button:hover {
    transform: scale(1.1);
 }
 
+.startoverclass {
+   width: 150px;
+   margin: auto;
+}
+
+.startoverbutton {
+   width: 150px;
+   margin: auto;
+   margin-top: 20px;
+}
+
 .bold { font-family: proxima-nova-bold, sans-serif; font-weight: bold; }
 
 .container {
@@ -83,11 +94,13 @@ button:hover {
 .question {
    font-family: proxima-nova, sans-serif;
    font-weight: 900;
+   margin-left: 20px;
 }
 
 .answers {
    padding: 20px;
    font-family: proxima-nova, sans-serif;
+   margin-left: 40px;
 }
 
 
@@ -96,7 +109,7 @@ button:hover {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #40B062;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -107,7 +120,7 @@ button:hover {
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
+/*  background-color: #3e8e41;*/
 }
 
 #myDropdown {
@@ -197,7 +210,7 @@ button:hover {
 }
 
 .chart_1 {
-   background-color: #5786D0;
+   background-color: #40B062;
    width: 45%;
    text-align: left;
 
@@ -225,7 +238,7 @@ button:hover {
 }
 
 .chart_2 {
-   background-color: #40B062;
+   background-color: #5786D0;
    width: 45%;   
    text-align: right;
 
@@ -262,6 +275,18 @@ button:hover {
 
 @media only screen and (max-width: 640px) {
 
+      .question {
+         margin-left: 0px;
+      }
+
+      .answers {
+         margin-left: 0px;
+      }
+
+      .chart_words {
+         font-size: 12px;
+         line-height: 12px;
+      }
 
 }
 
