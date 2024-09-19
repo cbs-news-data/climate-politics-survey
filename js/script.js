@@ -393,14 +393,14 @@ var survey = [{
 	},
 
 	{
-		question: "How much do you support or oppose the following policy? <br> <i>Fund more research into renewable energy sources, such as solar and wind power</i>",
+		question: "How much do you support or oppose funding more research into renewable energy sources, such as solar and wind power?",
 		choices: ['Strongly support','Somewhat support','Somewhat oppose','Strongly oppose'],
 		answer: [0,1],
 		opiniontext: ['Strongly support','Somewhat support']
 	},
 
 	{
-		question: "How much do you support or oppose the following policy? <br> <i>Regulate carbon dioxide (the primary greenhouse gas) as a pollutant</i>",
+		question: "How much do you support or oppose regulating carbon dioxide (the primary greenhouse gas) as a pollutant?",
 		choices: ['Strongly support','Somewhat support','Somewhat oppose','Strongly oppose'],
 		answer: [0,1],
 		opiniontext: ['Strongly support','Somewhat support']
