@@ -407,7 +407,7 @@ var survey = [{
 	},
 
 	{
-		question: "Do you think congress should be doing more or less to address global warming?",
+		question: "Do you think Congress should be doing more or less to address global warming?",
 		choices: ['Much more', 'More', 'Currently doing the right amount', 'Less', 'Much less'],
 		answer: [0,1],
 		opiniontext: ['Much more', 'More']
