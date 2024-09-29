@@ -114,20 +114,20 @@ $(document).ready(function(){ // begin document.ready block
 
 	      	console.log(filtered_ycom)
 
-	      	worried = ycom[0].worried
-	      	worriedOppose = ycom[0].worriedOppose
+	      	worried = filtered_ycom[0].worried
+	      	worriedOppose = filtered_ycom[0].worriedOppose
 
-	      	futuregen = ycom[0].futuregen
-	      	futuregenOppose = ycom[0].futuregenOppose
+	      	futuregen = filtered_ycom[0].futuregen
+	      	futuregenOppose = filtered_ycom[0].futuregenOppose
 
-	      	fundrenewables = ycom[0].fundrenewables
-	      	fundrenewablesOppose = ycom[0].fundrenewablesOppose
+	      	fundrenewables = filtered_ycom[0].fundrenewables
+	      	fundrenewablesOppose = filtered_ycom[0].fundrenewablesOppose
 
-	      	regulate = ycom[0].regulate
-	      	regulateOppose = ycom[0].regulateOppose
+	      	regulate = filtered_ycom[0].regulate
+	      	regulateOppose = filtered_ycom[0].regulateOppose
 
-	      	congress = ycom[0].congress
-	      	congressOppose = ycom[0].congressOppose
+	      	congress = filtered_ycom[0].congress
+	      	congressOppose = filtered_ycom[0].congressOppose
 
 			for(i = 0; i < ycom.length; i++) { 
 				//console.log(filtered_ycom.title)

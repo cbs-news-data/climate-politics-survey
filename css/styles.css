@@ -193,7 +193,7 @@ button:hover {
    margin: 0px;
    width: 100%;
    background-color: grey;
-   height: 85px;
+   height: 95px;
    display: flex;
    font-family: proxima-nova, sans-serif;
    color: white;
@@ -228,6 +228,7 @@ button:hover {
    left: 0px;
    width: 100%;
    padding: 5px;
+   line-height: 15px;
 }
 
 .chart_1_val, .chart_2_val {
